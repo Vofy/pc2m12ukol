@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650815834 source:/home/vofy/Projects/pc2m12ukol/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
