@@ -106,7 +106,7 @@ int main()
         printf("Matice %d:\n", matrix_a);
         print_matrix(matrices[matrix_a-1]);
 
-        // Pokud obe matice nejsou schodne
+        // Pokud jsou operandy dve ruzne matice
         if(matrices[matrix_a-1] != matrices[matrix_b-1])
         {
             printf("Matice %d:\n", matrix_b);
