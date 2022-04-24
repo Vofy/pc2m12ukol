@@ -4,16 +4,16 @@
 
 typedef int t_mat[3][3];
 
-t_mat* matice(t_mat* A, t_mat* B, char op)
+t_mat* matice(t_mat* A, t_mat* B, char operation)
 {
     t_mat* result = malloc(sizeof(t_mat));
 
     for(int i = 0; i < 3; i++)
         for(int j = 0; j < 3; j++)
         {
-            if(op == '+')
+            if(operation == '+')
                 (*result)[i][j] = (*A)[i][j] + (*B)[i][j];
-            else if(op == '-')
+            else if(operation == '-')
                 (*result)[i][j] = (*A)[i][j] - (*B)[i][j];
             else return NULL;
         }
